@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## please change API_KEY from weather application website and paste it in src/config/index.js
 
+install all dependencies using
+
+### npm install 
 In the project directory, you can run:
 
 ### `yarn start`

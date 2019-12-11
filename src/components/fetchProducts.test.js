@@ -14,7 +14,7 @@ describe('async actions', () => {
     fetchMock.restore()
   })
 
-  it('creates FETCH_TODOS_SUCCESS when fetching todos has been done', () => {
+  it('creates FETCH_PRODUCTS_SUCCESS when fetching weather data has been done', () => {
     fetchMock.getOnce(ALL_CITIES, {accept: 'application/json'})
 
     const expectedActions = [
